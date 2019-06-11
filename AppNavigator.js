@@ -6,7 +6,10 @@ import NextScreen from './screens/NextScreen';
 const AppNavigator = createStackNavigator(
     {
         HomeView:{screen:Home},
-        NextView:{screen:NextScreen}
+        NextView:{
+            screen:NextScreen,
+            
+        }
     },
     {
         initialRouteName:'HomeView'
